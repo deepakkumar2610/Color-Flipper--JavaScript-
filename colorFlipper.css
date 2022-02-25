@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F1F5F8;
+    font-family: "Rusoo One", sans-serif;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+}
+nav{
+    height: 4rem;
+    background: cornflowerblue;
+    color: black;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-center{
+    width:90vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.heading{
+    margin: auto;
+    margin-top: 20px;
+    color:#F1F5F8;
+}
+main{
+    min-height: calc(100vh - 4rem);
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+.container h2{
+    background: cornflowerblue;
+    width: 40vw;
+    padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+    border-radius: .5rem;
+    color: #F1F5F8;
+}
+.btn{
+    border: none;
+    padding:.5rem 1rem .5rem 1rem;
+    margin-top: 1rem;
+    background:cadetblue;
+    color: #F1F5F8;
+    border-radius: .3rem;
+    font-size: .9rem;
+}
+.btn:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+
+}
